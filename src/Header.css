@@ -1,0 +1,69 @@
+/* Example background color similar to your screenshot. Adjust as needed. */
+.header {
+    background-color: #9ab5ff;
+    padding: 10px 20px;
+  }
+  
+  /* Center the content and space items out */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Optional: set a max-width for larger screens and center it */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Brand (logo + text) */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .brand-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-items {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-items li {
+    cursor: pointer;
+    font-weight: 500; /* Adjust as needed */
+  }
+  
+  /* Right side: language and sign-up button */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .language {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  /* Sign Up Button */
+  .signup-btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .signup-btn:hover {
+    opacity: 0.9;
+  }
+  

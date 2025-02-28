@@ -1,0 +1,56 @@
+.search-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+  }
+  
+  .condition-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .condition-row select,
+  .condition-row input {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .condition-row button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-condition {
+    background: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-btn:hover {
+    background: #0056b3;
+  }
+  
